@@ -1,0 +1,40 @@
+{
+  "description": "Enables provisioning a Jenkins CI Server for PHP Project.\n\nContais: most of the PHPQATools (http://phpqatools.org), a template job (http://jenkins-php.org) and its plugins.",
+  "license": "Apache 2.0",
+  "version": "1.0.1",
+  "project_page": "https://github.com/rafaelfelix/puppet-jenkins4php",
+  "source": "https://github.com/rafaelfelix/puppet-jenkins4php",
+  "checksums": {
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "files/php-template/LICENSE": "162d2dc99a9eb324d59fc0caa60b3605",
+    "LICENSE": "3b5b35c66659bf64ee1424257c3a0669",
+    "README.md": "46f6e6a24a271da995e6fd50019c6d82",
+    "README": "ec1f713e3f921bcc791c4084dc24ef5e",
+    "tests/init.pp": "4a5afaa07847717e8b6208c805acb95b",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "metadata.json": "d34d0b70aba36510fbc2df4e667479ef",
+    "manifests/init.pp": "e8528a3db812c46346459f41ccb01b5d",
+    "files/php-template/config.xml": "4dc29524bd7d7c973ea72a4ab4fa7ce3",
+    "Modulefile": "ca42faedd39defa2dd254d17a9ba5ae8"
+  },
+  "name": "rafaelfc-jenkins4php",
+  "types": [
+
+  ],
+  "dependencies": [
+    {
+      "version_requirement": ">=1.0.0",
+      "name": "rafaelfc/jenkins"
+    },
+    {
+      "version_requirement": ">=1.0.0",
+      "name": "rafaelfc/phpqatools"
+    },
+    {
+      "version_requirement": ">=1.0.0",
+      "name": "rafaelfc/java"
+    }
+  ],
+  "summary": "Enables provisioning a Jenkins CI Server for PHP Project.",
+  "author": "Rafael Felix Correa <rafael.felix@gmail.com>"
+}
